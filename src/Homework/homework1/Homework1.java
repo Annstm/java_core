@@ -25,19 +25,19 @@ public class Homework1 {
         letters[3] = 'h';
         System.out.println(Arrays.toString (letters));
 
-    // Задача №4
+    //Задача №4
         int count = 1;
         while (count <= 100) {
             System.out.print(count + "a ");
             count++;
         }
+//другой вариант
+//      for (int z = 1; z <= 100 ; z++) {
+//          System.out.print(z + "a ");
+//      }
         System.out.print(newLine);
-//        for (int z = 1; z <= 100 ; z++) { //другой вариант
-//            System.out.print(z + "a ");
-//        }
-//        System.out.print(newLine);
 
-    // Задание №5
+    //Задача №5
         int ageChildren = 10;
 
         if (ageChildren < 6) {
@@ -115,7 +115,7 @@ public class Homework1 {
         if (increment >= 0) {
             for (double r = result; r <= max; r += increment) {
             //по условию задачи остановка итераций когда сумма становится больше max.
-            //если надо не больше max, то for (double r = result; r <= max - increment; r += increment) {
+            //если надо, чтобы остановка была когда сумма не больше max, то for (double r = result; r <= max - increment; r += increment) {
                 count3++;
             }
             System.out.println(count3);
@@ -145,6 +145,7 @@ public class Homework1 {
         else {
             System.out.println("У меня ничего нет");
         }
+
 
 //Экспертный уровень
 
