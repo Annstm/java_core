@@ -1,9 +1,9 @@
 package Lessons.lesson1;
-
+import java.util.Arrays;
 public class Lesson1 {
     public static void main(String[] args) {
         System.out.println("Hello World!");
-//Пишем код -> компиляция в код для Java Machine (JVM) -> JVM преобразует в байт код
+        //Пишем код -> компиляция в код для Java Machine (JVM) -> JVM преобразует в байт код
 
 // Примитивные типы данных
 
@@ -59,7 +59,7 @@ public class Lesson1 {
         System.out.println(ans2);
 
         int[] numbers = {1, 2, 3, 4, 5};
-        //System.out.println(Arrays.toString(numbers));
+        System.out.println(Arrays.toString(numbers));
 
     //текстовый тип данных
         String word1 = "Hello";
@@ -71,6 +71,7 @@ public class Lesson1 {
         System.out.println(word1 + word2);
 
     //операции с текстом
+        //добавление текста к массиву
         String stringFromCharArray = String.valueOf(ans2);
         System.out.println(stringFromCharArray + 'e');
         //все прописные буквы
