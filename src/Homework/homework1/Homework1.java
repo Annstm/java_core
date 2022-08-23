@@ -121,7 +121,7 @@ public class Homework1 {
             System.out.println(count3);
         }
 
-    // Задание №6
+    // Задачв №6
         boolean chicken = true;
         boolean vegetables = false;
         boolean sour = true;
