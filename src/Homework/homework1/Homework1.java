@@ -15,7 +15,7 @@ public class Homework1 {
 
     //Задача №2
         float height = 1.8f;
-        int weight = 65;
+        float weight = 65.0f;
         float index = weight / (height * height);
         System.out.printf("%.1f \n", index);
 
